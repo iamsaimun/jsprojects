@@ -9,6 +9,7 @@ const totalSection = document.getElementById("total");
 myform.addEventListener("submit", formSubmit);
 resetButton.addEventListener("click", reset);
 
+// functions for execute the form submission.
 function formSubmit(event) {
   event.preventDefault();
   const userInputs = Object.fromEntries(new FormData(event.target));
@@ -19,6 +20,7 @@ function formSubmit(event) {
   totalTipHTML.innerText = `Total Tip : ${totaltip} Tk`;
 }
 
+// function for resetting the input fields and result.
 function reset() {
   billAmountInput.value = "";
   tipAmountInput.value = "";

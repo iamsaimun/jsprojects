@@ -1,8 +1,8 @@
 # JSPROJECTS
 
-![License](https://img.shields.io/github/license/your-username/repository-name?style=flat-square)
-![Stars](https://img.shields.io/github/stars/your-username/repository-name?style=flat-square)
-![Forks](https://img.shields.io/github/forks/your-username/repository-name?style=flat-square)
+![License](https://img.shields.io/github/license/iamsaimun/jsprojects?style=flat-square)
+![Stars](https://img.shields.io/github/stars/iamsaimun/jsprojects?style=flat-square)
+![Forks](https://img.shields.io/github/forks/iamsaimun/jsprojects?style=flat-square)
 
 ## 🚀 Overview
 

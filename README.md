@@ -14,7 +14,7 @@ If applicable, add screenshots to showcase your project.
 
 ## 🎯 Live Demo
 
-[Live Demo](https://your-live-demo-url.com) _(if available)_
+[Live Demo](https://your-live-demo-url.com)
 
 ## 📦 Installation
 

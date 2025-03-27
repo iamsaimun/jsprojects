@@ -9,6 +9,9 @@ const totalSection = document.getElementById("total");
 myform.addEventListener("submit", formSubmit);
 resetButton.addEventListener("click", reset);
 
+totalSection.classList.add("hideElement");
+resetButton.disabled = true;
+
 // functions for execute the form submission.
 function formSubmit(event) {
   event.preventDefault();
@@ -16,13 +19,20 @@ function formSubmit(event) {
   const totaltip =
     +userInputs.billAmount +
     (+userInputs.billAmount * +userInputs.tipAmount) / 100;
+  totalSection.classList.remove("hideElement");
+  totalSection.classList.add("showElement");
   tipHTML.innerText = `Tip : ${userInputs.tipAmount} Tk`;
   totalTipHTML.innerText = `Total Tip : ${totaltip} Tk`;
+  resetButton.disabled = false;
 }
 
 // function for resetting the input fields and result.
 function reset() {
   billAmountInput.value = "";
   tipAmountInput.value = "";
-  totalSection.remove();
+  tipHTML.textContent = "";
+  totalTipHTML.textContent = "";
+  totalSection.classList.remove("showElement");
+  totalSection.classList.add("hideElement");
+  resetButton.disabled = true;
 }
